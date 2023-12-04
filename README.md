@@ -8,6 +8,8 @@ The method can generate images guided by multi-object prompts and follow the sof
 in other words, input mask images don't need to be specific, but can only roughly tell the model where the objects should be.
 Also, in some cases, this method can generate reasonable results when original AAE and stable diffusion fail to aligh with the specific spatial relationship of the prompts. (e.g., a monkey riding a tiger)
 
+<img width="700" alt="Screen Shot 2023-12-03 at 10 26 25 PM" src="https://github.com/KolvacS-W/Mask-Guided-Attention-Semantic-Guidance-for-Text-to-Image-Diffusion-Models/assets/55591358/e80f9619-4518-4003-995f-ecdc2f541c15">
+
 
 Research question: How can we enable soft conditions on multiple objects layout in stable diffusion?
 
@@ -71,3 +73,6 @@ The method also extend the limitations of stable diffusion in poor performance i
 The method sometimes fail to generate reasonable images due to the limitation of inference-stage training, whereas changes in seeds can partly solve this problem.
 
 ## result gallery
+
+![Untitled - Frame 2](https://github.com/KolvacS-W/Mask-Guided-Attention-Semantic-Guidance-for-Text-to-Image-Diffusion-Models/assets/55591358/f56d3837-2178-46b4-9f7c-766302d83064)
+

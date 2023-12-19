@@ -1,5 +1,5 @@
 # MAAE: Mask-Guided Attention-Based Semantic Guidance for Text-to-Image Diffusion Models
-By Jiaqi Wu and Prof. Eytan Adar
+Jiaqi Wu advisor: Prof. Eytan Adar
 ## Description
 This work is built upon Attend-and-Excite:[Attention-Based Semantic Guidance for Text-to-Image Diffusion Models (SIGGRAPH 2023)](https://yuval-alaluf.github.io/Attend-and-Excite/).
 
